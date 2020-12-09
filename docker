@@ -1,0 +1,6 @@
+Install on Debian:
+
+https://docs.docker.com/engine/install/debian/
+
+sudo systemctl enable docker
+sudo systemctl disable docker
