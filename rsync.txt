@@ -1,1 +1,9 @@
 rsync -avhr /origem /destino
+
+
+Algumas opções do comandos rsync
+-V: verbose
+-R: cópias de dados de forma recursiva (mas não preservam timestamps e permissão durante a transferência de dados
+-A: modo de arquivamento, o modo de arquivo permite a cópia de arquivos de forma recursiva e também preserva links simbólicos, permissões de arquivos, posses usuário e grupo e timestamps
+-Z: arquivos serão comprimidos
+-H: legíveis, saída em um formato legível para humano (esse é muito bom)
